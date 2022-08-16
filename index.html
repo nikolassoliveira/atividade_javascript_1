@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+    <head>
+
+        <title> Atividade 1 - JavaScript </title>
+        <meta charset="utf-8"/>
+        <link rel="stylesheet" href="style.css"/>
+
+    </head>
+
+    <body id="edit">
+        <main>
+        <form align="center">
+            <fieldset>
+                <label> Jogar Contra Computador</label><br/>
+                <label><input type="radio" id="cpu" name="cpu" value="true" checked>SIM</label>
+                <label><input type="radio" id="cpu" name="cpu" value="false">NÃO</label>
+            </fieldset>
+        </form>
+
+        <table border="3" align="center">
+            <tr>
+                <td>
+                    <img src="./img/transp.png" alt="imagem" id="c1" onclick="return checkjogo(this.id)"/>
+                </td>
+                <td>
+                    <img src="./img/transp.png" alt="imagem" id="c2" onclick="return checkjogo(this.id)"/>
+                </td>
+                <td>
+                    <img src="./img/transp.png" alt="imagem" id="c3" onclick="return checkjogo(this.id)"/>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <img src="./img/transp.png" alt="imagem" id="c4" onclick="return checkjogo(this.id)"/>
+                </td>
+                <td>
+                    <img src="./img/transp.png" alt="imagem" id="c5" onclick="return checkjogo(this.id)"/>
+                </td>
+                <td>
+                    <img src="./img/transp.png" alt="imagem" id="c6" onclick="return checkjogo(this.id)"/>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <img src="./img/transp.png" alt="imagem" id="c7" onclick="return checkjogo(this.id)"/>
+                </td>
+                <td>
+                    <img src="./img/transp.png" alt="imagem" id="c8" onclick="return checkjogo(this.id)"/>
+                </td>
+                <td>
+                    <img src="./img/transp.png" alt="imagem" id="c9" onclick="return checkjogo(this.id)"/>
+                </td>
+            </tr>
+        </table>
+
+        <br/>
+
+    <table align="center">
+
+        <div id="playa" onclick="playagain()">
+            Jogar Denovo
+        </div>
+        <div id="res">
+        </div>
+    </table>
+
+        </main>
+    </body>
+
+    <script type="text/javascript" src="externo.js"></script>
+
+</html>
